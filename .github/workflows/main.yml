@@ -1,4 +1,8 @@
-on: push
+on:
+  # Runs on pushes targeting the prod branch
+  push:
+    branches: ["prod"]
+
 name: Publish Website
 jobs:
     web-deploy:
