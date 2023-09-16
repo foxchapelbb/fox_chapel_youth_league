@@ -1,0 +1,20 @@
+/*Adapted from: https://codepen.io/tag3r/pen/wYKwRq*/
+
+#timer {  
+    font-size: 3em;
+    font-weight: 100;
+    color: white;
+    text-shadow: 0 0 20px #48C8FF;
+
+    div {
+        display: inline-block;
+        min-width: 90px;
+
+        span {
+            color: #B1CDF1;
+            display: block;
+            font-size: .25em;
+            font-weight: 400;
+        }
+    }
+}
